@@ -1,0 +1,217 @@
+#contenedor {
+    background: #D2B48C;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+  }
+
+
+#first-dinosaur {
+    content: "";
+    position: absolute;
+    top: 25%;
+    height: 400px;
+    width: 340px;
+    background-color: #808000;
+    border: 11px solid #556B2F;
+    border-radius: 50%;
+}
+
+#first-dinosaur::after {
+    content: "";
+    position: absolute;
+    top: 10%;
+    right: 60%;
+    height: 50px;
+    width: 50px;
+    background-color: #8FBC8F;
+    border-radius: 50%;
+    box-shadow: 60px -30px 0 -5px #8FBC8F,
+    115px 5px 0 -10px #8FBC8F;
+}
+
+#circulo {
+    content: "";
+    position: absolute;
+    height: 90px;
+    width: 290px;
+    /* background-color: #808000; */
+    background-color: transparent;
+    border-top: solid 11px transparent;
+    border-radius: 50% / 100% 100% 0 0;
+    rotate: 100deg;
+    left: 35%;
+    top: 141%;
+    box-shadow: 0 -65px 0 10px #808000,
+    0 -85px 0 11px #556B2F;
+}
+
+#egg {
+    content: "";
+position: relative;
+  width: 400px;
+  height: 250px;
+  border-radius: 50% 50% 50% 50%;
+  background: #E0FFFF;
+  rotate: 180deg;
+  border-radius: 50% / 100% 100% 0 0;
+  top: 20%;
+}  
+
+#egg::before {
+  content: "";
+  top: 0px;
+  width: 400px;
+  height: 250px;
+  left: 0px;
+  border-radius: 50% / 100% 100% 0 0;
+  position: absolute;
+  background: transparent;
+  box-shadow: 0px -20px 0 0px #C9E5E5;
+}
+
+#egg::after {
+    content: "";
+    position: absolute;
+    width: 35px;
+	height: 35px;
+	background-color: #B0E0E6;
+	border-radius: 50px;
+    top: 75%;
+    left: 70%;
+	box-shadow: -100px -80px 0 10px #B0E0E6;
+}
+
+#egg-circles {
+    content: "";
+    position: absolute;
+    width: 105px;
+	height: 55px;
+	background-color: #B0E0E6;
+	border-radius: 50px/100% 100% 15% 0;
+    top: 22%;
+    left: 65%;
+    rotate: -128deg;
+    box-shadow: 0 5px 0 0px #C9E5E5;
+}
+
+#egg-circles::after {
+    content: "";
+    position: absolute;
+    width: 115px;
+	height: 75px;
+	background-color: #B0E0E6;
+	border-radius: 50px/100% 100% 0% 0;
+    top: -310%;
+    left: 115%;
+    rotate: -100deg;
+    box-shadow: 0 5px 0 0px #C9E5E5;
+}
+
+
+
+#head {
+    content: "";
+    position: absolute;
+    height: 85px;
+    width: 160px;
+    background-color: #808000;
+    border-radius: 60%/50% 70% 100% 100%;
+    border: 12px solid #556B2F;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    top: 187%;
+    right: 10%;
+    /* border-bottom-right-radius: 60%%; */
+    /* border-bottom-left-radius: 50%; */
+}
+
+#head::after {
+  content: "";
+  position: absolute;
+  top: 60%;
+  left: 65%;
+  width: 15px;
+  height: 15px;
+  border-radius: 50% 50% 50% 50%;
+  background: black;
+  box-shadow: -50px 0px 0 0px black;
+}
+
+  #allmouth {
+    content: "";
+    position: absolute;
+    top: 190%;
+    right: 40%;
+  }
+
+  #mouth {
+    content: "";
+    position: absolute;
+    height: 30px;
+    width: 80px;
+    /* background-color: black; */
+    background-color: #808000;
+  }
+
+  #mouth::after {
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 15px;
+    border-radius: 50%/ 100% 100% 0 0;
+    background: #808000;   ;
+    top: 60%;
+    left: 0%;
+  }
+
+  
+  #teeth {
+    content: "";
+    position: absolute;
+    width: 26px;
+    height: 16px;
+    border-radius: 50%/ 100% 100% 0 0;
+    background: white;
+    rotate: -14deg;
+    top: 5px;
+    left: 0%;
+  }
+
+  #teeth::after {
+    content: "";
+    position: absolute;
+    width: 26px;
+    height: 16px;
+    border-radius: 50%/ 100% 100% 0 0;
+    background: white;
+    rotate: 27deg;
+    top: 75%;
+    left: 195%;
+  }
+
+  #teeth::before {
+    content: "";
+    position: absolute;
+    width: 26px;
+    height: 16px;
+    border-radius: 50%/ 100% 100% 0 0;
+    background: white;
+    rotate: 13deg;
+    top: 20%;
+    left: 95%;
+  }
+
+#egg-shadow {
+    content: "";
+    position: absolute;
+    background-color: #CD853F;
+    height: 80px;
+    width: 350px;
+    border-radius: 50%;
+    top: 85%;
+
+}
